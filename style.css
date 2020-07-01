@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 45px;
@@ -13,6 +14,54 @@ h1{
     margin-left:5%;
     padding-left: 2%;
 }
+
 .half img{
     width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.top{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    padding-top: 15px;
+}
+.button{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: cornsilk;
+    font-weight:700px;
+    background-image:linear-gradient( 45deg, blue, navy);
+}
+.middle{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    box-shadow: 10px 10px 20px rgb(124, 96, 250);
+    border-radius: 5px;
+    height: 50%;
+    background-color: rgb(250, 246, 246);
+}
+.bottom{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#exp{
+    border-left: 6px solid;
+    border-image:linear-gradient(180deg, blue, navy);
+    border-image-slice: 1;
+
+}
+#tag{
+    margin-left: 30px;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
 }
